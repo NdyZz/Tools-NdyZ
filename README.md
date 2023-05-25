@@ -1,4 +1,5 @@
 Tools-NdyZ 
+author NdyZz
 
 install package 
 # pkg update && pkg upgrade -y 
@@ -10,8 +11,3 @@ run tool
 # cd Tools-NdyZ 
 # python main.py
 
-author NdyZ 
-ig: 
-fb: 
-update versi 1.5
-hanya untuk belajar 
