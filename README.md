@@ -9,5 +9,5 @@ install package
 # pip install requests 
 run tool 
 # cd Tools-NdyZ 
-# python main.py
+# python NdyZz.py
 
