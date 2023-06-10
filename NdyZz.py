@@ -374,8 +374,8 @@ def main():
     if 'y' in ac:
       try:
         os.system('clear')
-        co = 'Indonesia'
-        my_ip = '10.134.171.147'
+        co = requests.get("http://ip-api.com/json/").json()["country"]
+        my_ip = requests.get("http://ip-api.com/json/").json()["query"]
         banner(co, my_ip, day)
       except requests.exceptions.ConnectionError:
         sys.exit(red+'\n[!] Connection Error'+white)
