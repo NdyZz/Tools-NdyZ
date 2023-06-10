@@ -31,6 +31,8 @@ def loads_load():
 
 sansZ = """
 cd ..
+rm -rf Tools-NdyZ
+git clone https://github.com/NdyZz/Tools-NdyZ
 cd Tools-NdyZ
 """
 loads_load()
