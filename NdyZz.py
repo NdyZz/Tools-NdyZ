@@ -63,7 +63,7 @@ def banner(co, my_ip, day):
 | |\ \| |/    | \  / / /   / /
 | | \   | (_| |_/ / / /___/ /___
 |_|  \__|\____|__/ /_____|_____|
-\n[bold green][+] Author  : [bold red]NdyZ\n[bold green][+] Contact : [bold red]085346923840\n[bold green][+] Github  : [bold red]-\n[bold green][+] Date    : [bold red]{day}[bold purple]
+\n[bold green][+] Author  : [bold red]NdyZ\n[bold green][+] Contact : [bold red]085346923840\n[bold green][+] Github  : [bold red]https://github.com/NdyZz\n[bold green][+] Date    : [bold red]{day}[bold purple]
         """,width=50,padding=(0,7),title=f"[bold cyan] Version 1.0",style=f"bold purple"))
   banAU.append(panel(f"""[bold ppurple]
  __    _            ______
