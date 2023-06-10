@@ -1,0 +1,5 @@
+ update V1.5:
+ [1] Tampilan
+ [2] Penambahan Menu
+ [3] Perbaikan beberapa Bug
+ [4] code enc
