@@ -64,7 +64,7 @@ def banner(co, my_ip, day):
 | | \   | (_| |_/ / / /___/ /___
 |_|  \__|\____|__/ /_____|_____|
 \n[bold green][+] Author  : [bold red]NdyZ\n[bold green][+] Contact : [bold red]085346923840\n[bold green][+] Github  : [bold red]https://github.com/NdyZz\n[bold green][+] Date    : [bold red]{day}[bold purple]
-        """,width=50,padding=(0,7),title=f"[bold cyan] Version 1.0",style=f"bold purple"))
+        """,width=50,padding=(0,5),title=f"[bold cyan] Version 1.0",style=f"bold purple"))
   banAU.append(panel(f"""[bold ppurple]
  __    _            ______
 |  \  | |    _ __  |___  |____
@@ -73,7 +73,7 @@ def banner(co, my_ip, day):
 | | \   | (_| |_/ / / /___/ /___
 |_|  \__|\____|__/ /_____|_____|
 \n[bold green][+] Name    : [bold red]{name_user}\n[bold green][+] Country : [bold red]{co}\n[bold green][+] My Ip   : [bold red]{my_ip}\n[bold green][+] Join    : [bold red]{join}[bold purple]
-        """,width=50,padding=(0,7),title=f"[bold cyan] Profile User",style=f"bold purple"))
+        """,width=50,padding=(0,6),title=f"[bold cyan] Profile User",style=f"bold purple"))
   console.print(Columns(banAU))
   
 def scan(ipaddress, port, timeouts):
