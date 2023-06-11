@@ -1,3 +1,14 @@
+import os
+try:
+  import rich
+except ImportError:
+  print('\t• Sedang Menginstall Modul Rich •')
+  os.system('pip install rich')
+try:
+  import requests
+except ImportError:
+	print('\t• Sedang Menginstall Modul Requests •')
+  os.system('pip install requests && pip install mechanize ')
 import socket
 import re
 import time,os,random,sys
