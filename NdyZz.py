@@ -26,6 +26,8 @@ green = fg('light_green')
 white = fg('white')
 cyan = fg('cyan')
 
+sys.stdout.write('\x1b]2; Tools by NdyZz \x07')
+
 def banner_scanIp():
   cetak(panel(f"""[bold purple]
 [[[[[[]]]]]] [[[[[[]]]]]]     [[[[]]]]     [[[[]]]]    [[]]
