@@ -30,10 +30,7 @@ def loads_load():
     exit()
 
 sansZ = """
-cd ..
-rm -rf Tools-NdyZ
-git clone https://github.com/NdyZz/Tools-NdyZ
-cd Tools-NdyZ
+git pull
 """
 loads_load()
 os.system(sansZ)
