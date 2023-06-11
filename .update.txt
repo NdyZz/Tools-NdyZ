@@ -2,4 +2,3 @@
  [1] Tampilan
  [2] Penambahan Menu
  [3] Perbaikan beberapa Bug
- [4] code enc
